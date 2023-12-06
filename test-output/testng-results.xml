@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-12T21:42:32 IST" name="Default suite" finished-at="2023-08-12T21:44:24 IST" duration-ms="111431">
+    <groups>
+    </groups>
+    <test started-at="2023-08-12T21:42:32 IST" name="Default test" finished-at="2023-08-12T21:44:24 IST" duration-ms="111431">
+      <class name="OrangeHRM.TestClass3">
+        <test-method is-config="true" signature="Initialize_Browser()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:42:32 IST" name="Initialize_Browser" finished-at="2023-08-12T21:43:14 IST" duration-ms="41320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize_Browser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:14 IST" name="loginToApp" finished-at="2023-08-12T21:43:15 IST" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Info1()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:15 IST" name="Info1" finished-at="2023-08-12T21:43:22 IST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Info1 -->
+        <test-method is-config="true" signature="s1()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:22 IST" name="s1" finished-at="2023-08-12T21:43:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:22 IST" name="loginToApp" finished-at="2023-08-12T21:43:23 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Info2()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:23 IST" name="Info2" finished-at="2023-08-12T21:43:28 IST" duration-ms="4994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Info2 -->
+        <test-method is-config="true" signature="s1()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:28 IST" name="s1" finished-at="2023-08-12T21:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:28 IST" name="loginToApp" finished-at="2023-08-12T21:43:28 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Info3()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:28 IST" name="Info3" finished-at="2023-08-12T21:43:33 IST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Info3 -->
+        <test-method is-config="true" signature="s1()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:33 IST" name="s1" finished-at="2023-08-12T21:43:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:33 IST" name="loginToApp" finished-at="2023-08-12T21:43:34 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Info4()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:43:34 IST" name="Info4" finished-at="2023-08-12T21:44:23 IST" duration-ms="49287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Info4 -->
+        <test-method is-config="true" signature="s1()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:44:23 IST" name="s1" finished-at="2023-08-12T21:44:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:OrangeHRM.TestClass3@383bfa16]" started-at="2023-08-12T21:44:23 IST" name="close" finished-at="2023-08-12T21:44:24 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- OrangeHRM.TestClass3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
