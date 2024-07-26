@@ -41,31 +41,31 @@ public class AppHooks {
 	}
 	
 	
-//	@After(order = 2)
-//	public void quitBrowser()
-//	{
-//		driver.quit();
-//	}
-//	
-//	
-//	@After(order = 1)
-//	public void tearDown(Scenario  scenario)
-//	{
-//		boolean isFailed = scenario.isFailed();
-//		
-//		if(isFailed)
-//		{
-//			String scenarioName = scenario.getName();
-//			String name = scenarioName.replaceAll(" ", "_");
-//			
-//			TakesScreenshot ts = (TakesScreenshot)driver;
-//			
-//			byte[] source = ts.getScreenshotAs(OutputType.BYTES);
-//			//byte[] source = ts.getScreenshotAs(OutputType.BYTES);
-//			
-//			scenario.attach(source, "image/png", name);
-//			
-//			
-//		}
-//}
+	@After(order = 2)
+	public void quitBrowser()
+	{
+		driver.quit();
+	}
+	
+	
+	@After(order = 1)
+	public void tearDown(Scenario  scenario)
+	{
+		boolean isFailed = scenario.isFailed();
+		
+		if(isFailed)
+		{
+			String scenarioName = scenario.getName();
+			String name = scenarioName.replaceAll(" ", "_");
+			
+			TakesScreenshot ts = (TakesScreenshot)driver;
+			
+			byte[] source = ts.getScreenshotAs(OutputType.BYTES);
+			//byte[] source = ts.getScreenshotAs(OutputType.BYTES);
+			
+			scenario.attach(source, "image/png", name);
+			
+			
+		}
+}
 }
